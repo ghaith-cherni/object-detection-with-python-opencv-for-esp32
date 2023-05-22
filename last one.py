@@ -4,8 +4,8 @@ import cv2 as cv
 
 framewidth = 640
 frameheight = 480
-cap = cv.VideoCapture(0)
-# cap = cv.VideoCapture("http://192.168.18.139:81/stream")
+#cap = cv.VideoCapture(0)
+cap = cv.VideoCapture("http://192.168.18.139:81/stream")
 cap.set(3, framewidth)
 cap.set(4, frameheight)
 
